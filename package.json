@@ -1,0 +1,26 @@
+{
+  "name": "prisma-planetscale-node",
+  "version": "1.0.0",
+  "description": "simple project for build rest api using planetscale and prisma and node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "prisma",
+    "node.js",
+    "planetscale",
+    "express"
+  ],
+  "author": "ayoub elouaizi",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "prisma-client": "^0.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.10.1"
+  }
+}
